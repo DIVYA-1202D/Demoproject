@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>E-commerce Homepage</title>
+  <link rel = "icon" href = "C:\Users\divya\OneDrive\Desktop\project\image\img (7).jpg" 
+        type = "image/x-icon">
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+     /* Header styles */
+     header {
+      background-image: url("image/img (9).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 50px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #252222;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #f7ebeb;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+    .container {
+            
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #3c423c;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #323832;
+        }
+    
+    footer {
+      
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to E-commerce Store</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="C:\Users\divya\OneDrive\Desktop\project\index.html">Home</a></li>
+      <li><a href="C:\Users\divya\OneDrive\Desktop\project\about.html">About</a></li>
+      <li><a href="C:\Users\divya\OneDrive\Desktop\project\product.html">product</a></li>
+      <li><a href="C:\Users\divya\OneDrive\Desktop\project\registration.html">Register</a></li>
+      <li><a href="C:\Users\divya\OneDrive\Desktop\project\contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <input type="submit" value="Register">
+    </form>
+</div>
+    <div class="container">
+        <form>
+          <h2>Login</h2>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Login">
+          </div>
+        </form>
+      </div>
+    
+
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

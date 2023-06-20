@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-commerce Homepage</title>
+  <link rel = "icon" href = "C:\Users\divya\OneDrive\Desktop\project\image\img (7).jpg" 
+        type = "image/x-icon">
+ <style>
+   
+ 
+/* Header styles */
+header {
+      background-image: url("image/img (9).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 50px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #252222;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #f7ebeb;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+   
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f2520;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2a2d2a;
+}
+footer {
+      
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+ </style>
+</head>
+<body>
+    <header>
+      <h1>Welcome to E-commerce Store</h1>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="C:\Users\divya\OneDrive\Desktop\project\index.html">Home</a></li>
+        <li><a href="C:\Users\divya\OneDrive\Desktop\project\about.html">About</a></li>
+        <li><a href="C:\Users\divya\OneDrive\Desktop\project\product.html">product</a></li>
+        <li><a href="C:\Users\divya\OneDrive\Desktop\project\registration.html">Register</a></li>
+        <li><a href="C:\Users\divya\OneDrive\Desktop\project\contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Send Message">
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
